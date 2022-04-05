@@ -3,7 +3,7 @@ list_2 = ['salam', 'donya!']
 
 concat = []
 
-for i in range(min(len(list_1), len(list_2))):
+for i in range(len(list_1)):
     concat.append((list_1[i], list_2[i]))
 # ----------------------------------------------
 '''
@@ -24,6 +24,8 @@ for i in range(min(len(list_1), len(list_2))):
     concat --> [('hello', 'salam'), ('world!', 'donya!')]
 '''
 
+list_1 = ['hello', 'world!', 'code_bama']
+list_2 = ['salam', 'donya!']
 
 result = list(zip(list_1, list_2))
 # ----------------------------------------------
