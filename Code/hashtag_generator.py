@@ -34,7 +34,7 @@ tags = [
 'datascience'
 ]
 
-tags_final = ['#'+tag for tag in sample(tags, 15)]
+tags_final = ['#'+tag for tag in sample(tags, 20)]
 
 with open('hashtags.txt', 'w') as f:
     f.write(' '.join(tags_final))
